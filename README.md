@@ -29,5 +29,8 @@ Here are a few resources to help you get familiar with the Food Order App:
 git clone https://github.com/Jawhar27/Food-Order-App.git
 
 - Step 02 : Run this command after opening the project.<br>
-flutter pub get 
+flutter pub get
+
+- Step 03 : To Run the project.<br>
+flutter run
 
