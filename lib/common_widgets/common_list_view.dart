@@ -31,7 +31,7 @@ class CommonListViewContainer extends StatelessWidget {
           ),
           Padding(
             padding: EdgeInsets.only(
-              left: 20,
+              left: 10,
               top: isAvoidBottomSheet ? 40 : 20,
             ),
             child: Column(

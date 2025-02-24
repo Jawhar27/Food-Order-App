@@ -97,6 +97,7 @@ class _ModifierRulesScreenState extends State<ModifierRulesScreen> {
                   return Container(
                     height: getDeviceHeight(context) * 0.4,
                     margin: const EdgeInsets.only(
+                      top: 20.0,
                       left: 20.0,
                       right: 20.0,
                     ),
@@ -154,10 +155,7 @@ class _ModifierRulesScreenState extends State<ModifierRulesScreen> {
                                 ? const Center(
                                     child: Text("No Modifer Option Found!"),
                                   )
-                                : Scrollbar(
-                                    controller: _scrollController,
-                                    thumbVisibility: true,
-                                    child: ListView.builder(
+                                :  ListView.builder(
                                       controller: _scrollController,
                                       itemCount: foodItems.length,
                                       itemBuilder: (context, foodIndex) {
@@ -165,6 +163,7 @@ class _ModifierRulesScreenState extends State<ModifierRulesScreen> {
                                           mainAxisAlignment:
                                               MainAxisAlignment.spaceBetween,
                                           children: [
+                                            
                                             Text(
                                               foodItems[foodIndex]
                                                   .title['en']
@@ -228,7 +227,7 @@ class _ModifierRulesScreenState extends State<ModifierRulesScreen> {
                                         );
                                       },
                                     ),
-                                  ))
+                                  ),
                       ],
                     ),
                   );
