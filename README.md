@@ -1,16 +1,33 @@
 # food_order_app
 
-A new Flutter project.
+A food order app with four screens: Menu List, Category List, Menu Items, and Modifiers. The prices will be updated based on the selected delivery, pickup, or table options at the top of the screen.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Here are a few resources to help you get familiar with the Food Order App:
 
-A few resources to get you started if this is your first Flutter project:
+- [UI Screenshots](https://drive.google.com/drive/folders/1P4Cz3DLTyad9266e6BNxwb4JHFF-1rn_?usp=drive_link)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Menu List: Displays all available Menus.
+Bottom Sheet : Select Lunch or Breakfast Menu.
+Category List: Display the Categories for selected Menu.
+Menu Items: Display Menu Items of selected Category..
+Modifiers: Display Modifiers for Menu Item and select modifier options.
+Dynamic Pricing: Prices adjust based on delivery, pickup, or table selection.
+
+## Tech Stack
+
+Frontend: Flutter
+Responsiveness - [Flutter_Screenutil](https://pub.dev/packages/flutter_screenutil)
+State Management - [Provider](https://pub.dev/packages/provider)
+
+## Installation
+
+Step 01 : Clone the repository using the following command:
+git clone https://github.com/Jawhar27/Food-Order-App.git
+
+Step 02 : Run this command after opening the project:
+flutter pub get 
+
