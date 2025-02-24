@@ -10,24 +10,24 @@ Here are a few resources to help you get familiar with the Food Order App:
 
 ## Features
 
-Menu List: Displays all available Menus.
-Bottom Sheet : Select Lunch or Breakfast Menu.
-Category List: Display the Categories for selected Menu.
-Menu Items: Display Menu Items of selected Category..
-Modifiers: Display Modifiers for Menu Item and select modifier options.
-Dynamic Pricing: Prices adjust based on delivery, pickup, or table selection.
+- Menu List: Displays all available Menus.
+- Bottom Sheet : Select Lunch or Breakfast Menu.
+- Category List: Display the Categories for selected Menu.
+- Menu Items: Display Menu Items of selected Category.
+- Modifiers: Display Modifiers for Menu Item and select modifier options.
+- Dynamic Pricing: Prices adjust based on delivery, pickup, or table selection.
 
 ## Tech Stack
 
-Frontend: Flutter
-Responsiveness - [Flutter_Screenutil](https://pub.dev/packages/flutter_screenutil)
-State Management - [Provider](https://pub.dev/packages/provider)
+- Frontend: Flutter.
+- Responsiveness - [Flutter_Screenutil] (https://pub.dev/packages/flutter_screenutil).
+- State Management - [Provider] (https://pub.dev/packages/provider).
 
 ## Installation
 
-Step 01 : Clone the repository using the following command:
+- Step 01 : Clone the repository using the following command.<br>
 git clone https://github.com/Jawhar27/Food-Order-App.git
 
-Step 02 : Run this command after opening the project:
+- Step 02 : Run this command after opening the project.<br>
 flutter pub get 
 
